@@ -17,7 +17,9 @@ class GoogleReaderKeys extends Plugin {
 	function hook_hotkey_map($hotkeys) {
 
 		$hotkeys["j"]		= "next_article_noscroll";
-		$hotkeys["k"]		= "prev_article_noscroll";
+        $hotkeys["k"]		= "prev_article_noscroll";
+        $hotkeys['n']       = "next_article_noscroll";
+        $hotkeys['p']       = "prev_article_noscroll";
 		$hotkeys["*n"]		= "next_feed";
 		$hotkeys["*p"]		= "prev_feed";
 		$hotkeys["v"]		= "open_in_new_window";
